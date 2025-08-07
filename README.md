@@ -1,18 +1,16 @@
 # React Router DOM Lab
 
 ## About
-- Welcome to Reactville, a constantly evolving virtual metropolis. Let’s build this digital town together, one component at a time.
-
-- Welcome to Reactville’s local post office! In this lab, you’ll develop an application that simulates the management of post office boxes. Features will include creating new mailboxes, viewing a list of all mailboxes, and exploring individual mailbox details.
+- Welcome to Reactville, a constantly evolving virtual metropolis. Let’s build this digital town together, one component at a time. Additionally, welcome to Reactville’s local post office! In this lab, you’ll develop an application that simulates the management of post office boxes. Features will include creating new mailboxes, viewing a list of all mailboxes, and exploring individual mailbox details.
 
 - Solution UI Example Image
 
-- Throughout the lab, you’ll use client-side routing tools from the React Router library to navigate between different components. This approach allows your single-page application to function more like a traditional multi-page website, improving the user experience by providing distinct navigable pages without full page reloads.
+- Throughout the lab, the student use client-side routing tools from the React Router library to navigate between different components. This approach allows this single-page application to function more like a traditional multi-page website, improving the user experience by providing distinct navigable pages without full page reloads.
 
 ## Exercise Overview
-- In this lab, you will build an application that simulates a post office, where users can create new mailboxes, view a list of all mailboxes, and explore details about each mailbox.
+- In this lab, the student will build an application that simulates a post office, where users can create new mailboxes, view a list of all mailboxes, and explore details about each mailbox.
 
-- You will utilize several client-side routing tools provided by React Router’s library to complete this lab.
+- The student will utilize several client-side routing tools provided by React Router’s library to complete this lab.
 
 - What is a mailbox in this lab?
 Each “mailbox” in this lab represents a type of post office box, often called a PO Box.
