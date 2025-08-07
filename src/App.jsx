@@ -1,9 +1,9 @@
 // src/App.jsx
 import { useState } from 'react';
 import NavBar from './components/NavBar/NavBar';
-import MailboxList from './components/MailboxList/MailboxList';
-import MailboxForm from './components/MailboxForm/MailboxForm';
-import MailboxDetails from './components/MailboxDetails/MailboxDetails';
+// import MailboxList from './components/MailboxList/MailboxList';
+// import MailboxForm from './components/MailboxForm/MailboxForm';
+// import MailboxDetails from './components/MailboxDetails/MailboxDetails';
 
 const App = () => {
   return <h1>Hello world!</h1>;

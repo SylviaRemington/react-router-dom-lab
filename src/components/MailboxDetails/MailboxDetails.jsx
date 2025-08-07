@@ -4,4 +4,4 @@
 
 
 
-export default MailboxDetails;
+// export default MailboxDetails;
