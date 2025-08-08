@@ -3,7 +3,7 @@
 ## About
 - Welcome to Reactville, a constantly evolving virtual metropolis. Let’s build this digital town together, one component at a time. Additionally, welcome to Reactville’s local post office! In this lab, the student will develop an application that simulates the management of post office boxes. Features will include creating new mailboxes, viewing a list of all mailboxes, and exploring individual mailbox details.
 
-- Solution UI Example Image
+**Solution UI Example Image**
 ![Mailbox_Image](/public/UI_Example_Image.png)
 
 - Throughout the lab, the student use client-side routing tools from the React Router library to navigate between different components. This approach allows this single-page application to function more like a traditional multi-page website, improving the user experience by providing distinct navigable pages without full page reloads.
@@ -14,9 +14,7 @@
 - The student will utilize several client-side routing tools provided by React Router’s library to complete this lab.
 
 - What is a mailbox in this lab?
-Each “mailbox” in this lab represents a type of post office box, often called a PO Box.
-
-- A PO Box (short for “Post Office Box”) is a secure, numbered box located at a post office where people can receive mail. These boxes are rented by individuals or businesses who want a private or reliable way to get their mail. Only the box owner has access to their assigned box.
+Each “mailbox” in this lab represents a type of post office box, often called a PO Box. A PO Box (short for “Post Office Box”) is a secure, numbered box located at a post office where people can receive mail. These boxes are rented by individuals or businesses who want a private or reliable way to get their mail. Only the box owner has access to their assigned box.
 
 **In this lab, each mailbox will have:**
 1. A unique box number (_id)
