@@ -4,7 +4,7 @@
 - Welcome to Reactville, a constantly evolving virtual metropolis. Let’s build this digital town together, one component at a time. Additionally, welcome to Reactville’s local post office! In this lab, the student will develop an application that simulates the management of post office boxes. Features will include creating new mailboxes, viewing a list of all mailboxes, and exploring individual mailbox details.
 
 - Solution UI Example Image
-![Mailbox_Image] (public/UI_Example_Image.png)
+![Mailbox_Image](/public/UI_Example_Image.png)
 
 - Throughout the lab, the student use client-side routing tools from the React Router library to navigate between different components. This approach allows this single-page application to function more like a traditional multi-page website, improving the user experience by providing distinct navigable pages without full page reloads.
 
