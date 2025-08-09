@@ -1,4 +1,14 @@
 <!-- React only has one html & we render all html via main.jsx into the "root" in this file. -->
+<!-- Order of things below as I understand it (hopefully this is correct): -->
+ <!-- 
+1. The browser opens the app and starts with the index.html file.
+2. That file has a spot where the React app will appear in root.
+3. It also says, “Run main.jsx.”
+4. main.jsx loads index.css so the page knows the styles.
+5. main.jsx then loads the App.
+6. main.jsx shows App on the page in the root.
+7. Because the styles were already loaded, everything in App uses them.
+(This seems totally complicated to me; but I think this is the order of things.) -->
 
 <!doctype html>
 <html lang="en">
