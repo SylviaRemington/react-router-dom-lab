@@ -1,6 +1,7 @@
 // Creating basic looping through mailbox list via map function
 
 const MailboxList = (props) => {
+    console.log(props.mailbox);
     return (
         <>
         <h2>Mailbox List</h2>
@@ -13,10 +14,6 @@ const MailboxList = (props) => {
     );
 };
 
-console.log(MailboxList);
 
 
-
-
-
-// export default MailboxList;
+export default MailboxList;
