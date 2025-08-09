@@ -8,6 +8,7 @@ import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
+    {/* Everything inside of BrowserRouter has routing functionality. */}
     <BrowserRouter>
       <App />
     </BrowserRouter>
