@@ -8,10 +8,10 @@ const NavBar = () => {
   return (
     <nav>
       <ul>
-        <li>Home</li>
-        <li>MailboxList</li>
-        <li>MailboxForm</li>
-        <li>MailboxDetails</li>
+        <li>*Home*</li>
+        <li>*Mailboxes(MailboxList)*</li>
+        <li>*New Mailbox(MailboxForm)*</li>
+        <li>*New Letter(MailboxDetails)*</li>
       </ul>
     </nav>
   );

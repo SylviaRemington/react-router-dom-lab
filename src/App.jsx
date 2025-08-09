@@ -17,6 +17,9 @@ const initialStateMailboxes = [
 const App = () => {
   return (
     <>
+      <nav>
+        <NavBar/>
+      </nav>
       <h1>Digital Post Office!</h1>
       <MailboxList className='initialStateMailboxes' mailboxes={initialStateMailboxes}/>
     </>
