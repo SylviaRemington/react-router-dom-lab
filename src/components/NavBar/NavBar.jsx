@@ -3,6 +3,7 @@
 // ➜  react-router-dom-lab git:(main) touch src/components/NavBar/NavBar.jsx
 import '../../App.css';
 import "../../App.jsx";
+// import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
