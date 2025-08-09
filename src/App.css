@@ -22,6 +22,10 @@ h1 {
   color: rgb(76, 123, 198);
 }
 
+.initialStateMailboxes {
+  color: rgb(76, 123, 198);
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

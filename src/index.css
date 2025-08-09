@@ -11,6 +11,10 @@ body {
   height: 100%;
 }
 
+/* .initialStateMailboxes {
+  color: rgb(76, 123, 198);
+} */
+
 ul {
   padding: 0;
   display: flex;

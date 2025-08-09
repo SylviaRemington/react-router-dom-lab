@@ -18,10 +18,11 @@ const App = () => {
   return (
     <>
       <h1>Digital Post Office!</h1>
-      <MailboxList mailboxes={initialStateMailboxes}/>
+      <MailboxList className='initialStateMailboxes' mailboxes={initialStateMailboxes}/>
     </>
   );
 };
 
 export default App;
+
 
