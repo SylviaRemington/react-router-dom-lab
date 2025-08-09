@@ -15,13 +15,14 @@ const initialStateMailboxes = [
 ];
 
 const App = () => {
+  const [mailboxes, setMailboxes] = useState(initialStateMailboxes);
   return (
     <>
       <nav>
         <NavBar/>
       </nav>
       <h1>Digital Post Office!</h1>
-      <MailboxList className='initialStateMailboxes' mailboxes={initialStateMailboxes}/>
+      <MailboxList className='initialStateMailboxes' mailboxes={mailboxes}/>
     </>
   );
 };
