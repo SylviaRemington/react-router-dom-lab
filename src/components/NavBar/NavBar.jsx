@@ -1,6 +1,8 @@
 // ➜ react-router-dom-lab git:(main) mkdir src/components
 // ➜  react-router-dom-lab git:(main) mkdir src/components/NavBar
 // ➜  react-router-dom-lab git:(main) touch src/components/NavBar/NavBar.jsx
+import '../../App.css';
+import "../../App.jsx";
 
 const NavBar = () => {
   return (
