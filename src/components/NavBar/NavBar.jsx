@@ -3,7 +3,7 @@
 // ➜  react-router-dom-lab git:(main) touch src/components/NavBar/NavBar.jsx
 // import '../../App.css';
 // import "../../App.jsx";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const NavBar = () => {
   return (
@@ -21,9 +21,9 @@ const NavBar = () => {
           <Link to="/new-mailbox">*New Mailbox(MailboxForm)*</Link>
         </li>
 
-        {/* <li>
+        <li>
           <Link to="/mailboxes/:mailboxId">*New Letter(MailboxDetails)*</Link>
-        </li> */}
+        </li>
       </ul>
     </nav>
   );
