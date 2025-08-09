@@ -1,5 +1,6 @@
 // src/App.jsx
 import { useState } from 'react';
+import { Routes, Route } from 'react-router';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import MailboxList from './components/MailboxList/MailboxList';
@@ -22,7 +23,8 @@ const App = () => {
         <NavBar/>
       </nav>
       <h1>Digital Post Office!</h1>
-      <MailboxList className='initialStateMailboxes' mailboxes={mailboxes}/>
+      <Routes><MailboxList className='initialStateMailboxes' mailboxes={mailboxes}/></Routes>
+      
     </>
   );
 };
