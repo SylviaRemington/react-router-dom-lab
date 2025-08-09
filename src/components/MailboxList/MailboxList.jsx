@@ -1,12 +1,12 @@
 // Creating basic looping through mailbox list via map function
 
 const MailboxList = (props) => {
-    console.log(props.mailbox);
+    console.log(props.mailboxes);
     return (
         <>
-        <h2>Mailbox List</h2>
+        <h2>Mailbox List of All Mailboxes</h2>
         <ul>
-            {props.mailbox.map((currentMailbox) => (
+            {props.mailboxes.map((currentMailbox) => (
                 <li key={currentMailbox.name}>{currentMailbox.name}</li>
             ))}
         </ul>
