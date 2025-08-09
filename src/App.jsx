@@ -7,10 +7,10 @@ import MailboxList from './components/MailboxList/MailboxList';
 // import MailboxDetails from './components/MailboxDetails/MailboxDetails';
 
 const initialStateMailboxes = [
-  {  _id: 1, boxSize: 'Small', boxOwner: 'Alex',},
-  {  _id: 2, boxSize: 'Medium', boxOwner: 'Sylvia',},
-  {  _id: 3, boxSize: 'Large', boxOwner: 'Daniel',},
-  {  _id: 4, boxSize: 'Super-Size', boxOwner: 'John',},
+  {  _id: 1, boxSize: 'Small', boxOwnerName: 'Alex',},
+  {  _id: 2, boxSize: 'Medium', boxOwnerName: 'Sylvia',},
+  {  _id: 3, boxSize: 'Large', boxOwnerName: 'Daniel',},
+  {  _id: 4, boxSize: 'Super-Size', boxOwnerName: 'John',},
 ];
 
 const App = () => {
@@ -23,3 +23,4 @@ const App = () => {
 };
 
 export default App;
+

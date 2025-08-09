@@ -7,7 +7,7 @@ const MailboxList = (props) => {
         <h2>Mailbox List of All Mailboxes</h2>
         <ul>
             {props.mailboxes.map((currentMailbox) => (
-                <li key={currentMailbox.name}>{currentMailbox.name}</li>
+                <li key={currentMailbox.boxOwnerName}>{currentMailbox.boxOwnerName}</li>
             ))}
         </ul>
         </>
@@ -17,3 +17,4 @@ const MailboxList = (props) => {
 
 
 export default MailboxList;
+
