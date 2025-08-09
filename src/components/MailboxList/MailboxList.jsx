@@ -1,4 +1,5 @@
 // Creating basic looping through mailbox list via map function
+import '../../App.css';
 
 const MailboxList = (props) => {
     console.log(props.mailboxes);

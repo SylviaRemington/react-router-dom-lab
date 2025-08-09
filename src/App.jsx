@@ -1,5 +1,6 @@
 // src/App.jsx
 import { useState } from 'react';
+import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import MailboxList from './components/MailboxList/MailboxList';
 // import MailboxList from './components/MailboxList/MailboxList';
