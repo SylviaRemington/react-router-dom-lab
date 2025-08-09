@@ -4,6 +4,7 @@ import '../../App.css';
 const MailboxList = (props) => {
     console.log(props.mailboxes);
     return (
+        // rendering everything out here
         <>
         <h2>Mailbox List of all the fabulous mailboxes 📫 🎉🥳 🙌 </h2>
         <ul>
