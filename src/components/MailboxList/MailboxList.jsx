@@ -1,5 +1,5 @@
 // Creating basic looping through mailbox list via map function
-import "../../App.css";
+// import "../../App.css"; //SO I don't need to import App.jsx here because I'm exporting it to App.jsx
 import { Link } from "react-router";
 
 const MailboxList = (props) => {
