@@ -5,7 +5,7 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import MailboxList from './components/MailboxList/MailboxList';
 import MailboxDetails from './components/MailboxDetails/MailboxDetails';
-// import MailboxForm from './components/MailboxForm/MailboxForm';
+import MailboxForm from './components/MailboxForm/MailboxForm';
 
 const initialStateMailboxes = [
   {  _id: 1, boxSize: 'Small', boxOwnerName: 'Alex',},
@@ -26,6 +26,7 @@ const App = () => {
         <Route path='/' element={ <h2>Welcome! You are currently on the home page. Yes!</h2> }></Route>
         <Route path='/mailboxes' element={<MailboxList className='initialStateMailboxes' mailboxes={mailboxes}/>}></Route>
         <Route path='/mailboxes/:id' element={<MailboxDetails mailboxes={mailboxes} />}></Route>
+        <Route path='/new-mailbox' element={<MailboxForm />}></Route>
         <Route path='*' element={<h2>Whoops! You typed in an incorrect path. Try again.</h2>}></Route>
       </Routes>
       

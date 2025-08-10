@@ -10,15 +10,15 @@ const NavBar = () => {
     <nav>
       <ul>
         <li>
-          <Link to="/">*Home*</Link>
+          <Link to='/'>*Home*</Link>
         </li>
 
         <li>
-          <Link to="/mailboxes">*Mailboxes(MailboxList)*</Link>
+          <Link to='/mailboxes'>*Mailboxes(MailboxList)*</Link>
         </li>
 
         <li>
-          <Link to="/new-mailbox">*New Mailbox(MailboxForm)*</Link>
+          <Link to='/new-mailbox'>*New Mailbox(MailboxForm)*</Link>
         </li>
 
         {/* <li>
