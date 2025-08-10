@@ -12,6 +12,9 @@
 - **My Version - Mailbox Form**
 ![NewForm_Image](/public/MailboxForm.png)
 
+- **My Version - Mailbox Individual Details Page**
+![Details_Image](/public/MailboxDetails.png)
+
 - **My Version - Homepage**
 ![Welcome_Image](/public/Welcome.png)
 
