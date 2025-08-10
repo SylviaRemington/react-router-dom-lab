@@ -15,6 +15,7 @@ const MailboxDetails = (props) => {
         // using Number(id) to convert the id (which is a string in the url) to a number so that it matches the _id in my mailboxes array
         (mailbox) => mailbox._id === Number(id)
     );
+    console.log(singleMailbox);
 
     // If no mailbox is found (e.g. is undefined), display error message of 'Mailbox Not Found!'
     if (!singleMailbox) {
