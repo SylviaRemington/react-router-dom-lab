@@ -5,9 +5,8 @@ import { useParams } from "react-router";
 const MailboxDetails = (props) => {
     const params = useParams();
 
-    console.log('Params are: ', params);
-
-
+    // seeing the difference of what happens in console log with params and params.id
+    console.log('Params are: ', params, params.id);
 
     return (
         <>
