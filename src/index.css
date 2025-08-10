@@ -79,5 +79,11 @@ button {
   background-color: rgb(76, 123, 198);
   color: white;
   font-size: 12pt;
-  /* ! Need to change css for this button */
+  /* display: inline-block !important; 
+  padding: 2px 6px !important; 
+  border: none !important;
+  width: auto !important;
+  min-width: 0 !important; */
+  /* ! Need to change css for this button. Can't figure out why I can't make button shape around 'submit' button. */
+  /* ! I think it has to do with having all the css being given by General Assembly & I think there's a bug in it that I'm having a hard time finding. */
 }
