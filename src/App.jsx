@@ -24,6 +24,7 @@ const App = () => {
       </nav>
       <h1>Digital Post Office!</h1>
       <Routes>
+        <Route path='/' element={ <p>You are currently on the home page.</p> }></Route>
         <Route path='/mailboxes' element={<MailboxList className='initialStateMailboxes' mailboxes={mailboxes}/>}></Route>
       </Routes>
       
