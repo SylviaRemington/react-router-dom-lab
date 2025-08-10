@@ -22,6 +22,7 @@ const App = () => {
     const newMailbox = {
       ...formData,
       _id: mailboxes.length + 1, // This is the length of the mailboxes array plus one, so that when add next one it goes to the end of the list.
+      // As per user stories: 'This number should increment based on the number of mailboxes that already exist.'
     };
     setMailboxes([...mailboxes, newMailbox]);
   };
