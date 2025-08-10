@@ -16,7 +16,7 @@ body {
   color: rgb(76, 123, 198);
 } */
 
-/* ul {
+ul {
   padding: 0;
   display: flex;
   list-style: none;
@@ -25,7 +25,7 @@ body {
 
 li {
   margin-right: 16px;
-} */
+}
 
 /* ul {
   display: block;
@@ -37,7 +37,7 @@ li {
   margin-right: 0;
 } */
 
-nav ul {
+/* nav ul {
   display: flex;
   list-style: none;
   justify-content: center;
@@ -46,11 +46,11 @@ nav ul {
 
 nav li {
   margin-right: 16px;
-}
+} */
 
 /* All other ul/li (like MailboxList) to have this ul and li. */
-ul { display: block; list-style: disc inside; padding-left: 1.25rem; }
-li { margin-right: 0; }
+/* ul { display: block; list-style: disc inside; padding-left: 1.25rem; }
+li { margin-right: 0; } */
 
 .mail-box {
   border: 2px solid white;
