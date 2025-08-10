@@ -25,7 +25,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={ <h2>Welcome! You are currently on the home page. Yes!</h2> }></Route>
         <Route path='/mailboxes' element={<MailboxList className='initialStateMailboxes' mailboxes={mailboxes}/>}></Route>
-        <Route path='/mailboxes/:id' element={<MailboxDetails />}></Route>
+        <Route path='/mailboxes/:id' element={<MailboxDetails mailboxes={mailboxes} />}></Route>
         <Route path='*' element={<h2>Whoops! You typed in an incorrect path. Try again.</h2>}></Route>
       </Routes>
       
