@@ -8,6 +8,8 @@ const MailboxDetails = (props) => {
     // seeing the difference of what happens in console log with params and params.id
     console.log('Params are: ', params, params.id);
 
+    const singleMailbox = 
+
     return (
         <>
             <h2>Mailbox Details Page</h2>
@@ -23,3 +25,4 @@ const MailboxDetails = (props) => {
 
 
 export default MailboxDetails;
+
