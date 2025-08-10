@@ -33,7 +33,7 @@ const MailboxForm = (props) => {
       <h2>New Mailbox</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor='boxOwnerName'>Box Owner Name: </label>
+          <label htmlFor='boxOwnerName'>Enter Mailbox Owner Name: </label>
           <input
             type='text'
             id='boxOwnerName'
@@ -43,7 +43,7 @@ const MailboxForm = (props) => {
           />
         </div>
         <div>
-          <label htmlFor='boxSize'>Box Size: </label>
+          <label htmlFor='boxSize'>Select A Mailbox Size: </label>
           <select
             id='boxSize'
             value={boxSize}
@@ -55,7 +55,7 @@ const MailboxForm = (props) => {
             <option value='Super-Size'>Super-Size</option>
           </select>
         </div>
-        <button type='submit'>Create Mailbox</button>
+        <button type='submit'>Submit</button>
       </form>
     </>
   );
