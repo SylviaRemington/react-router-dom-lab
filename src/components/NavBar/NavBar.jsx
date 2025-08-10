@@ -21,9 +21,9 @@ const NavBar = () => {
           <Link to="/new-mailbox">*New Mailbox(MailboxForm)*</Link>
         </li>
 
-        <li>
+        {/* <li>
           <Link to="/mailboxes/:mailboxId">*New Letter(MailboxDetails)*</Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

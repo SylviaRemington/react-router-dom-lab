@@ -23,7 +23,9 @@ const App = () => {
         <NavBar/>
       </nav>
       <h1>Digital Post Office!</h1>
-      <Routes><MailboxList className='initialStateMailboxes' mailboxes={mailboxes}/></Routes>
+      <Routes>
+        <Route path='/mailboxes' element={<MailboxList className='initialStateMailboxes' mailboxes={mailboxes}/>}></Route>
+      </Routes>
       
     </>
   );
