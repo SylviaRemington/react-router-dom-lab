@@ -16,6 +16,16 @@ const initialStateMailboxes = [
 
 const App = () => {
   const [mailboxes, setMailboxes] = useState(initialStateMailboxes);
+
+  // functionality for adding a new mailbox
+  const addBox= (formData) => {
+    const newMailbox = {
+      ...formData,
+      _id: mailboxes.length + 1, // This auto-increments the _id
+    };
+    setMailboxes([...mailboxes, newMailbox]);
+  };
+
   return (
     <>
       <nav>
@@ -26,7 +36,7 @@ const App = () => {
         <Route path='/' element={ <h2>Welcome! You are currently on the home page. Yes!</h2> }></Route>
         <Route path='/mailboxes' element={<MailboxList className='initialStateMailboxes' mailboxes={mailboxes}/>}></Route>
         <Route path='/mailboxes/:id' element={<MailboxDetails mailboxes={mailboxes} />}></Route>
-        <Route path='/new-mailbox' element={<MailboxForm />}></Route>
+        <Route path='/new-mailbox' element={<MailboxForm addBox={addBox} />}></Route>
         <Route path='*' element={<h2>Whoops! You typed in an incorrect path. Try again.</h2>}></Route>
       </Routes>
       
