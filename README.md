@@ -1,7 +1,7 @@
 # React Router DOM Lab
 
 ## About
-- Welcome to Reactville, a constantly evolving virtual metropolis. Let’s build this digital town together, one component at a time. Additionally, welcome to Reactville’s local post office! In this lab, the student will develop an application that simulates the management of post office boxes. Features will include creating new mailboxes, viewing a list of all mailboxes, and exploring individual mailbox details.
+- Welcome to Reactville, a constantly evolving virtual metropolis. Let’s build this digital town together, one component at a time. Additionally, welcome to Reactville’s local post office! In this lab, the student will develop an application that simulates the management of post office boxes. Features will include creating new mailboxes, viewing a list of all mailboxes, and exploring individual mailbox details. (Focus for this lab is on **using React & React Router Dom**. It is NOT focused on CSS at this time. Thus, I didn't focus on the styling.)
 
 - **Solution UI Example Image**
 ![Mailbox_Image](/public/UI_Example_Image.png)
