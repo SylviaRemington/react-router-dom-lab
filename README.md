@@ -6,9 +6,13 @@
 - **Solution UI Example Image**
 ![Mailbox_Image](/public/UI_Example_Image.png)
 
-- **My Version**
+- **My Version - Mailbox List**
 ![Mailbox_Image](/public/MailboxList.png)
+
+- **My Version - Mailbox Form**
 ![NewForm_Image](/public/MailboxForm.png)
+
+- **My Version - Homepage**
 ![Welcome_Image](/public/Welcome.png)
 
 - Throughout the lab, the student use client-side routing tools from the React Router library to navigate between different components. This approach allows this single-page application to function more like a traditional multi-page website, improving the user experience by providing distinct navigable pages without full page reloads.
