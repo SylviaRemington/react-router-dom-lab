@@ -1,3 +1,4 @@
+import { useParams } from "react-router";
 
 // We are using props to have data being passed into it, so that we can have individual details about the mailboxes.
 const MailboxDetails = (props) => {
